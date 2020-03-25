@@ -38,7 +38,7 @@ shp_gdf_subnational = shp_gdf_subnational[~shp_gdf_subnational["HASC_1"].isnull(
 # Read spreadsheet
 df_subnational = pd.read_excel(data_subnational, names = ["GID_1", "Country_1",
                                                           "Region", "HASC_1",
-                                                          "TIME_1", "TIME_String",
+                                                          "TIME_1", "TIME_STRING",
                                                           "INTENSITY_1"], skiprows = 1)
 
 df_subnational = df_subnational[~df_subnational["HASC_1"].isnull()]
