@@ -9,7 +9,6 @@
 ### Import section ###
 ###                ###
 
-import xlrd
 import json
 import bokeh.settings
 import pandas as pd
