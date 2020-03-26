@@ -43,6 +43,6 @@ tab_subnational = Panel(child=layout_subnational, title = "Subnational level")
 tabs = Tabs(tabs=[tab_global, tab_subnational])
 
 # Show plot
-#curdoc().add_root(tabs)
+doc().add_root(tabs)
 
 #show(tabs)
