@@ -75,7 +75,7 @@ color_mapper = LinearColorMapper(palette = hiik_colors, low = 0, high = 5, nan_c
 
 # Create map for subnational values
 p_subnational = figure(title = "Conflicts on a subnational level in 2019",
-                       plot_height = 300, plot_width = 475,
+                       plot_height = 450, plot_width = 713,
                        toolbar_location = "below",
                        tools = "pan, wheel_zoom, box_zoom, reset")
 
