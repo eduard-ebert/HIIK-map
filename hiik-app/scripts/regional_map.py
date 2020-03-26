@@ -116,7 +116,8 @@ regions = p_subnational.patches("xs","ys", source = geosource_subnational,
                                 line_color = "gray", line_width = 0.25, fill_alpha = 1)
 
 # Create hover tool
-p_subnational.add_tools(HoverTool(renderers = [regions], tooltips = [("Region", "@Region"),
+p_subnational.add_tools(HoverTool(renderers = [regions], tooltips = [("Country", "@Country_1"),
+                                                                     ("Region", "@Region"),
                                                                      ("Intensity", "@INTENSITY_1"),
                                                                      ("Time", "@TIME_STRING")]))
 
