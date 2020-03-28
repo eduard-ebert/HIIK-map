@@ -10,6 +10,7 @@
 ###                ###
 
 import json
+import ssl
 import bokeh.settings
 import pandas as pd
 import geopandas as gpd
@@ -23,6 +24,8 @@ from bokeh.palettes import brewer
 from bokeh.plotting import output_file, show, figure
 from bokeh.embed import file_html, components
 from bokeh.resources import CDN
+
+ssl._create_default_https_context = ssl._create_unverified_context
 
 ###                ###
 ###   Global map   ###
